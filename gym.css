@@ -1,0 +1,144 @@
+*{
+	padding:0;
+	margin:0;
+}
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	background-color:black;
+	overflow:hidden;
+}
+li{
+	float:left;
+}
+li a, .dropbt{
+	display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 20px 35px;
+    text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropbt{
+	background-color:red;
+}
+li .dropdown{
+	display:inline-block;
+}
+.dropdown-content{
+	display:none;
+	position:absolute;
+	background-color:#f9f9f9;
+	min-width:160px;
+}
+.dropdown-content a{
+	color:black;
+	padding:12px 16px;
+	text-decoration:none;
+	display:block;
+	text-align:left;
+}
+.dropdown-content a:hover{
+	background-color:lightgrey;
+}
+.dropdown:hover .dropdown-content{
+	display:block;
+}
+#banner{
+	
+	height:800px;
+	width:100%;
+	background-image:url("pic7.jpg");
+	background-size:cover;
+	
+}
+#logo{
+	border-radius:10px;
+	position:relative;
+	top:250px;
+	left:350px;
+}
+#banner h1{
+	text-align:left;
+	
+	padding:300px 50px;
+}
+#buttons{
+	text-align:center;
+	margin:50px;
+}
+.button{
+	background-color:#FFCCFF;
+	padding:20px 30px;
+	font-size:20px;
+	margin:50px;
+	cursor:pointer;
+	text-decoration:none;
+	color:black;
+	font-size:25px;
+}
+#app{
+	height:250px;
+	max-width:100%;
+	background-image:url("app22.png"); 
+    background-size:cover;
+	text-align:center;
+	color:black;
+	
+}
+.download{
+	display:inline;
+	padding-top:50px;
+	position:relative;
+	top:100px;
+}
+#downbt{
+	font-size:15px;
+	padding:15px 25px;
+	background-color:transparent;
+	border:2px solid black;
+	cursor:pointer;
+	text-decoration:none;
+	color:black;
+	position:relative;
+	top:100px;
+	left:50px;
+	
+}
+#ytvideo{
+	height:500px;
+	max-width:100%;
+	margin-top:100px;
+	text-align:center;
+}
+#ytvideo p{
+	margin:20px;
+}
+.dir{
+	text-decoration:none;
+	color:white;
+	position:absolute;
+	bottom:-950px;
+	right:200px;
+	border:1px solid white;
+	background-color:none;
+	border-radius:5px;
+	padding:10px 20px;
+}
+.smedia{
+	padding:5px 15px;
+	
+}
+#footer{
+	height:400px;
+	max-width: 100%;
+	background-image:url("footer1.jpg"); 
+	background-size:100%;
+	background-repeat:no-repeat;
+	margin-top:100px;
+	color:white;
+	font-size:30px;
+	text-align:left;
+	padding-left:20px;
+}
+
